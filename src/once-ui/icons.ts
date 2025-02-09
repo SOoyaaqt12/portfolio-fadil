@@ -1,4 +1,5 @@
 import { IconType } from "react-icons";
+import { FaWhatsapp } from "react-icons/fa";
 
 import {
   HiChevronUp,
@@ -56,11 +57,11 @@ export const iconLibrary: Record<string, IconType> = {
   openLink: HiOutlineLink,
   calendar: HiCalendarDays,
   home: PiHouseDuotone,
-  gallery: PiImageDuotone,
   discord: FaDiscord,
   github: FaGithub,
   linkedin: FaLinkedin,
   x: FaXTwitter,
   clipboard: HiClipboard,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,
+  whatsapp: FaWhatsapp
 };

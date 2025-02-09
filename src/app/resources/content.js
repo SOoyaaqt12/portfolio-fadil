@@ -2,12 +2,12 @@ import { InlineCode } from "@/once-ui/components";
 
 const person = {
   firstName: "Fadil",
-  lastName: "Atha Dzarif",
+  lastName: "Atha Zharif",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
+  role: "Front End Web Developer",
+  avatar: "/images/profil.jpeg",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -29,12 +29,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/fadilzhar",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/fadil-zharif11/",
   },
   {
     name: "X",
@@ -44,8 +44,13 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: "mailto:example@gmail.com",
+    link: "mailto:fadilathazharif@gmail.com",
   },
+  {
+    name: "Whatsapp",
+    icon: "whatsapp",
+    link: "https://wa.me/6281514567956/"
+  }
 ];
 
 const home = {
@@ -55,7 +60,8 @@ const home = {
   headline: <>Website engineer and builder</>,
   subline: (
     <>
-      I'm Dzarif, a design engineer at <InlineCode>Depok</InlineCode>, where I craft static, <br/> dynamic and interactive Website. After hours, I build my own projects.
+      I'm Zharif, <InlineCode>a Front End Web Developer</InlineCode> with 
+      Back End<br/> and UI/UX Design skill. I create amazing and interactive Websites.
     </>
   ),
 };
@@ -80,9 +86,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Zharif is a Front end Web Developer with passion for designing and making Simple but elegant websites. Raised in Jakarta and England, with Intermediate to Expert English Language, UI/UX Design skill and Public Speaking.
       </>
     ),
   },
@@ -91,17 +95,12 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "SMP IT AL Bunyan Boarding School",
+        timeframe: "January 2024",
+        role: "Teacher",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            I had the opportunity to be able to teach in my Alma meter, SMP IT Al Bunyan, and I asked some of my friends to accompany me to teach design and give a seminar about my experiences being in a organization such as the Student Council
           </>,
         ],
         images: [
@@ -115,20 +114,61 @@ const about = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "KV Shah Alam Selangor - Malaysia",
+        timeframe: "October 2024",
+        role: "Teacher",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            I had the opportunity to be able to attend a teaching program provided by my school, IDN Boarding School, to Malaysia, Selangor. In KV Shah Alam, I taught college students Web Development using TailwindCSS and Database using Laravel. I was with 4 of my friends from different branches of IDN Boarding School. We taught for 5 days and we taught 20 college students.
           </>,
         ],
-        images: [],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "Markas Mobil - Jogjakarta ",
+        timeframe: "November 2024",
+        role: "Project, Front End Developer",
+        achievements: [
+          <>
+            I had the opportunity to make a Web project for a company named Markas Mobil located in Yogyakarta, for a program called Business Survival offered by IDN Boarding School. The project was completed in total of 5 days and is now online in google with the domain .com available to search. I used Native HTML and CSS and a little JavaScript to complete this project.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        company: "STMIK Tazkia - Bogor",
+        timeframe: "September 2024",
+        role: "Project, Front End Developer",
+        achievements: [
+          <>
+            I had the opportunity to make a Web project for a school named STMIK Tazkia located in Kab. Bogor. Me and 4 of my friends were offered by STMIK Tazkia to make a Landing Page for their PKK Website and Kabupaten. We used CSS Framework: TailwindCSS and Flowbite to complete this project and it took us 4 days to complete.
+          </>,
+        ],
+        images: [
+          // optional: leave the array empty if you don't want to display images
+          {
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Once UI Project",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -137,12 +177,26 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Ark Charter Academy - Portsmouth, UK",
+        description: <>Junior High School.</>,
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "SMP IT AL BUNYAN - Bogor, Indonesia",
+        description: <>Junior High School</>,
+      },
+      {
+        name: "SMK IDN Boarding School - Bogor, Indonesia",
+        description: <>Senior High School</>,
+      },
+    ],
+  },
+    organization: {
+    display: true, // set to false to hide this section
+    title: "Organization",
+    organization: [
+      {
+        name: "SMK IDN Boarding School",
+        description: <>Student Council Leader of English Division</>,
       },
     ],
   },
@@ -152,7 +206,6 @@ const about = {
     skills: [
       {
         title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -161,8 +214,14 @@ const about = {
             width: 16,
             height: 9,
           },
+        ],
+      },
+      {
+        title: "HTML",
+        // optional: leave the array empty if you don't want to display images
+        images: [
           {
-            src: "/images/projects/project-01/cover-03.jpg",
+            src: "/images/projects/project-01/cover-04.jpg",
             alt: "Project image",
             width: 16,
             height: 9,
@@ -170,8 +229,43 @@ const about = {
         ],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "CSS",
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "BootStrap",
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "TailwindCSS",
+        // optional: leave the array empty if you don't want to display images
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Flowbite",
         // optional: leave the array empty if you don't want to display images
         images: [
           {
@@ -186,99 +280,14 @@ const about = {
   },
 };
 
-const blog = {
-  label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
-};
 
 const work = {
   label: "Work",
   title: "My projects",
   description: `Design and dev projects by ${person.name}`,
-  // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
 
-const gallery = {
-  label: "Gallery",
-  title: "My photo gallery",
-  description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
-  images: [
-    {
-      src: "/images/gallery/img-01.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-02.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-03.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-04.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-05.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-06.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-07.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-08.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-09.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-10.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-11.jpg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/img-12.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-13.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/img-14.jpg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-  ],
-};
 
-export { person, social, newsletter, home, about, blog, work, gallery };
+
+export { person, social, newsletter, home, about, work, };
